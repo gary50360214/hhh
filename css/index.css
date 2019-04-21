@@ -1,0 +1,50 @@
+
+*{
+    font-family: 'Meiryo','Noto Sans TC', 'å¾®è»Ÿæ­£é»‘é«”', sans-serif;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  #top{
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #header-glass {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  #basic-info {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  section {
+    padding: 5rem 0;
+  }
+
+  /* about */
+  #about {
+    background-color: #ECECEC;
+  }
+  
+  /* interests */
+  #interests {
+    background-color: #D7D7D7
+  }
+  
+  #interests img {
+    width: 50%;
+  }
+  
+  .progress {
+    width: 100%;
+  }
+  
+  .prog-lang {
+    font-size: 1.5rem;
+  }
+  

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<!-- title -->
+	<title>高鵬勛</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/index.css">	
+</head>
+
+<body data-spy="scroll" data-target="#navbarSupportedContent">
+
+	<!-- navbar -->
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+		<span class="navbar-brand" style="font-size:48px; margin-right:56px;">高鵬勛</span>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav">
+				<li class="nav-item" style="font-size:24px;"><a class="nav-link" href="#top">首頁</a></li>
+				<li class="nav-item" style="font-size:24px;"><a class="nav-link" href="#about">關於</a></li>
+				<li class="nav-item" style="font-size:24px;"><a class="nav-link" href="#interests">興趣</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- top -->
+	<header class="h-100"  id="top"><!-- 載入背景 並框住元素 -->
+		<div class="h-100 d-flex flex-column justify-content-between" id="header-glass"><!-- 加入黑色半透明遮罩 來突顯出自介及相片 d-flex將元素轉成flex flex-column將元素轉成由上到下排列  justify-content-between 將格子分成上中下三個區域 -->
+			<div></div><!-- 上面區塊用不到 直接空白 -->
+
+			<!--自介方塊 使用格子系統-->
+			<div class="container">
+				<div class="row">
+					<!-- 圖片在電腦佔4格上下並將圖片置中 -->
+					<div class="col-lg-4 text-center">
+						 <img src="img/head-256.jpg" alt="大頭照" class="rounded">
+					</div>
+
+					<!-- 基本資料 在電腦佔8格 設定左右 及 上下 內距-->
+					<div class="col-lg-6 px-5 py-4 text-white rounded" id="basic-info">
+						<h1>高鵬勛</h1>
+						<p><h5><i class="fab fa-google-plus fa-lg"></i>&nbsp;&nbsp;gary50360214@gmail.com</h5></p>
+						<p><h5><i class="fas fa-phone"></i>&nbsp;&nbsp;0966824829</h5></p>
+						<br>
+						<a class="btn btn-primary" href="https://www.facebook.com/roro.ke.94" target="_blank"><i class="fab fa-facebook-square"></i>&nbsp;&nbsp;Facebook</a>
+					</div>
+				</div>
+			</div>
+			<p class="text-center text-white"></p>
+		</div>
+	</header>
+
+	<!-- 關於 -->
+	<section class="text-center" id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-4">
+						<img style="width:256px; height:256px;" src="img/IMG_5569.JPG" alt="">
+					</div>
+					<div class="col-12 col-md-8 text-left">
+						<h1 class="display-4 mb-4" style="margin-left:2.5em">關於</h1>
+						<p style="font-size:24px">高鵬勛 <br>1999年生 <br>台灣新北人 <br>現為國立台北科技大學資工系學生</p>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<!-- 個人興趣 -->
+	<section id="interests">
+		<div class="container text-center">
+			<h1 class="display-4 mb-4 text-center">興趣</h1>
+			<div class="row mt-5 mb-3 ">
+				<!-- study -->
+				<div class="col-3 col-md-3">
+					<img src="img/study.svg" alt="study">
+					<h5 class="mt-2">看書</h5>
+				</div>
+
+				<!-- piano -->
+				<div class="col-3 col-md-3">
+					<img src="img/piano.svg" alt="piano">
+					<h5 class="mt-2">彈鋼琴</h5>
+				</div>
+
+				<!-- video-player -->
+				<div class="col-3 col-md-3">
+					<img src="img/videoPlayer.svg" alt="video-player">
+					<h5 class="mt-2">追劇</h5>
+				</div>
+
+				<!-- headphones -->
+				<div class="col-3 col-md-3">
+					<img src="img/headphones.svg" alt="headphones">
+					<h5 class="mt-2">聽音樂</h5>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer>
+		<p class="text-center py-5 bg-dark text-white mb-0">Copyright &copy; Pung-Xun Kao, 2019</p>
+    </footer>
+</body> 
+
+<script src="js/jquery-3.4.0.min.js"></script>
+<script src="js/fontawesome-all.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>    
